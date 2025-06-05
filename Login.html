@@ -7372,7 +7372,27 @@ header .mobile-sticky-bar ul li span {
                         </div>
                     </div>
                 </div>
-                
+                <style>
+                    @media screen and (max-width:768px) {
+    .mobile-logo {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .user-form .login {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header:not(.fixed) .navigation {
+        border-bottom: none !important;
+        margin-bottom: 54px !important;
+    }
+}
+                </style>
                 <div class="navigation">
                     <div class="container">
                         <div class="hamburger sf-hidden"></div>
